@@ -9,42 +9,51 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css">
     <title>Tirmazi Motors</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+        <div class="container-fluid bg-dark">
             <a class="navbar-brand" href="index.html">
-                <b>
+                <strong>
                     Tirmazi Motors
-                </b>
+                </strong>
             </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon light">
+                <i class="fa-solid fa-bars" style="color: #f81c32; font-size: 30px;"></i>
+            </span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav navbar-nav-first mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page " href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="service.html">Our Services</a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="service.html">Our Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="offer.html">Our Offers</a>
                     </li>
                 </ul>
+
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="offer.html">Book your dream car today!</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -149,7 +158,7 @@
     <footer class="bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 ">
                     <h3>
                         Our Address
                     </h3>
@@ -162,7 +171,7 @@
                         </a>
                     </h3>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 ">
                     <h3>
                         Useful Links
                     </h3>
@@ -193,7 +202,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 ">
                     <h3>
                         Our Vehicles
                     </h3>
